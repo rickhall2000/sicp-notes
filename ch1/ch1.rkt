@@ -46,4 +46,48 @@
 
 (define (sqrt-better guess x)
    (sqrt-best guess (improve guess x) x))
-  
+
+;; Exercise 1.8
+(define (cube-root guess x)
+  (if (cube-enough guess x) 
+      guess 
+      (cube-root (improv3 guess x) x)))
+
+(define (cube-enough guess x)
+  (< (abs (- (cube guess) x)) 0.01))
+
+(define (cube x)
+  (* x x x))
+
+(define (improv3 y x) 
+  (/ (+ (/ x (* y y)) (* 2 y)) 3))
+
+;; Exercise 1.10 
+(define (A x y)
+  (cond ((= y 0) 0)
+        ((= x 0) (* 2 y))
+        ((= y 1) 2)
+        (else (A (- x 1)
+                 (A x (- y 1))))))
+;; A 1 10 -> 1024
+;; A 2 4 -> 65536
+;; A 3 3 -> 65536
+
+(define (f n) (A 0 n))
+(define (g n) (A 1 n))
+(define (h n) (A 2 n))
+(define (k n) (* 5 n n))
+;; (f n) -> 2n
+;; (g n) -> n^2
+;; (h n) -> (A 2 n) 
+;; -> (A 1 (A 2 (- n 1))) 
+;; -> (A 0 (- (A 2 (- n 1)) 1)) 
+;; -> (* 2 (- (A 1 (A 2 (- (- n 1) 1)))))
+
+;; Exercise 1.11
+(define (f1 n) 
+  (if (< n 3) n
+      (+ (f1 (- n 1)) (* 2 (f1 (- n 2))) (* 3 (f1 (- n 3))))))
+;; I can't figure out how to do it iteratively
+
+

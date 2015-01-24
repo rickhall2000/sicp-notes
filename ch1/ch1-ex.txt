@@ -76,3 +76,6 @@ Exercise 1.9
 (+ 0 9)
 9
 
+Exercise 1.13 I don't like doing proofs
+
+

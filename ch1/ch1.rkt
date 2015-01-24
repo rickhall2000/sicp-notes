@@ -88,6 +88,29 @@
 (define (f1 n) 
   (if (< n 3) n
       (+ (f1 (- n 1)) (* 2 (f1 (- n 2))) (* 3 (f1 (- n 3))))))
-;; I can't figure out how to do it iteratively
 
+(define (f2 n)
+  (if (< n 3)
+      n
+      (f2-iter 2 1 0 n)))
 
+(define (f2-iter a b c n) 
+  (if (< n 3) 
+      a 
+      (f2-iter (+ a (* 2 b) (* 3 c))
+               a b (- n 1))))
+
+;; Exercise 1.12
+(define (build-row prior) 
+  (if (and (pair? prior) (pair? (cdr prior)))  
+      (cons (+ (car prior) (cadr prior))
+            (build-row (cdr prior)))
+      '(1)))
+
+(define (pascal n) 
+  (define (loop acc n) 
+    (if (= n 0) 
+        acc
+        (loop (cons (cons 1 (build-row (first acc))) acc) (- n 1))))
+   (reverse (loop '((1)) (- n 1))))
+   

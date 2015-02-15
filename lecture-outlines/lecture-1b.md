@@ -1,31 +1,34 @@
 #Lecture 1b
 
+[Procedures and Processes; Substitution Model](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/1b-procedures-and-processes-substitution-model/)
+
 ##Covers Text Section 1.2
+[Procedures and the Processes They Generate](http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-11.html)
 
 Establish the connection between patterns of procedures and expressions cause particular patterns of behavior (0:18)
 
 Substitution model - simplest model for understanding how procedures and processes work. (3:25) 
 
 Kinds of expressions (4:00)
-     numbers
-     symbols
-     lambda expressions
-     definitions
-     conditionals
-     combinations
+*    numbers
+*    symbols
+*    lambda expressions
+*    definitions
+*    conditionals
+*    combinations
 
 To evaluate an application (5:56)
-     evaluate the operator to get procedure
-     evaluate the operands to get arguments
-     Apply the procedure to the arguments
+*     evaluate the operator to get procedure
+*     evaluate the operands to get arguments
+*     Apply the procedure to the arguments
           Copy the body, substituting arguments for formal parameters
           evaluate the resulting new body
 
 To evaluate an IF expression (12:10)
-     Evaluate the predicate expression
-          if it yields TRUE
+*     Evaluate the predicate expression
+*          if it yields TRUE
                evaluate the consequent expression
-          otherwise
+*          otherwise
                evaluate the alternative expression
 
 End of Segment 1 - (16:57)

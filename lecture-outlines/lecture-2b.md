@@ -21,3 +21,28 @@ The pattern of Primatives, Means of Combination, Means of Abstraction also appli
 * Creating the representation of rational numbers with constructor and selectors is exactly the same idea as creating and naming procedures to represent operations (16:00)
 
 End of part 1 (17:40)
+
+How do we package up a numeator and denomenator into a rational number (19:00)
+
+Lists, cons, car, cdr (19:30)
+
+### Example Continues
+* Using list structure to represent rational numbers (23:16)
+* The results of the completed implementation of rational numbers (24:35)
+* What went wrong? (26:00)
+* Modify make-rat to simplify rationals when creating (27:55)
+* Data abstraction separates use of data and its representation (29:17)
+
+Data abstraction allows represenations to be named (33:15)
+
+Naming allows for providing alterative representations (34:13)
+
+You retain flexiblity by not making decisions about anything until you are forced to do it. (36:08)
+
+Data abstraction is one way to make progress towards a solution but not be bound by the consequences of your decisions. (36:35)
+
+"let" (38:40)
+
+End of section 2 (40:48)
+
+

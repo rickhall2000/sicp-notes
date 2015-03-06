@@ -45,4 +45,38 @@ Data abstraction is one way to make progress towards a solution but not be bound
 
 End of section 2 (40:48)
 
+Data abstraction is a way of controlling complexity. Controlling complexity is important when building more complicated things (41:18)
 
+### Example: Using abstractions to build a layered system
+* Points can be represented as pairs of numbers (42:35)
+* Line Segments can be represented as pairs of points (43:40)
+* Midpoint of a line segment (45:00)
+* Length of a segment (45:45)
+
+Pairs are also a data abstraction. The elements of a pair can themsevles be pairs (48:00)
+
+Closure means that when you put things together with a means of combination, you can then put those things together with that means of combination (49:20)
+
+Comparison of length function with data abstraction vs without abstraction (50:31)
+
+Once you have the means of combining things into pairs, you can combine into as many things as you want (54:50)
+
+End of section 3 (56:12)
+
+What data abstraction means (56:55)
+
+If you build in terms of data abstraction your system can work with any suitable representation (58:20)
+
+Suitability of an abstraction system (59:25)
+
+The contract of pairs (1:02:35)
+
+Build pairs out of abstraction (1:03:50)
+
+cons, car and cdr as functions without data (1:04:20)
+
+Using the substitution model to test cons, car and cdr (1:05:58)
+
+Blurring the lines between procedures and data (1:10:10)
+
+Procedures as first class objects (1:11:53)

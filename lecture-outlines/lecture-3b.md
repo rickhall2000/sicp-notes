@@ -30,3 +30,15 @@ Using Symbols [18:19](https://youtu.be/X21cKVtGvYk?t=1099)
 Using the representation [26:06](https://youtu.be/X21cKVtGvYk?t=1566)
 
 Start of section 2 [29:26](https://youtu.be/X21cKVtGvYk?t=1766)
+
+What is wrong with the results? [29:51](https://youtu.be/X21cKVtGvYk?t=1791)
+
+The form of the process shapes the form of the result [31:36](https://youtu.be/X21cKVtGvYk?t=1896)
+
+To improve the results improve the representation. [33:50](https://youtu.be/X21cKVtGvYk?t=2030)
+
+Improving make-sum [36:35](https://youtu.be/X21cKVtGvYk?t=2195)
+
+What effect does the new representation have on the results? [40:10](https://youtu.be/X21cKVtGvYk?t=2410)
+
+

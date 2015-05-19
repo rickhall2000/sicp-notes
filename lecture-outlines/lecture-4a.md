@@ -1,7 +1,7 @@
 #Lecture 4A
 [Pattern-matching: Rule-based Substitution](https://www.youtube.com/watch?v=amf5lTZ0UTc)
 
-##Covers text section ???
+##Covers text section [2.3.2 Symbolic Differentiation](http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-4.html#%_toc_%_sec_2.3.2)
 
 The previous lecture maniuplated symbols to translate calculus rules into the language of the computer [0:21](https://youtu.be/amf5lTZ0UTc?t=21)
 
@@ -36,6 +36,10 @@ The patterns for the rules will be passed to the matcher. The skelletons for the
 The rules are applied to all subexpressions, and then the rules are applied to the result, until no more simplification is possible [19:54](https://youtu.be/amf5lTZ0UTc?t=1194)
 
 Begin Part 2 [24:11](https://youtu.be/amf5lTZ0UTc?t=1451)
+
+The structure of the matcher [24:27](https://youtu.be/amf5lTZ0UTc?t=1467)
+
+The code structure of the matcher at large scale [26:20](https://youtu.be/amf5lTZ0UTc?t=1580)
 
 
 

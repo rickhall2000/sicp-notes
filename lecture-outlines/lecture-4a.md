@@ -55,3 +55,18 @@ What happens inside evaluate [38:50](https://youtu.be/amf5lTZ0UTc?t=2330)
 
 ### Begin Part 3 [47:00](https://youtu.be/amf5lTZ0UTc?t=2820)
 
+The control structure that applies rule to expressons [47:40](https://youtu.be/amf5lTZ0UTc?t=2860)
+
+The simplifier overview [51:06](https://youtu.be/amf5lTZ0UTc?t=3066)
+
+Recursively traversing the expression [52:44](https://youtu.be/amf5lTZ0UTc?t=3164)
+
+Writing simplify-exp as a single procedure [54:42](https://youtu.be/amf5lTZ0UTc?t=3282)
+
+Trying rules overview [56:19](https://youtu.be/amf5lTZ0UTc?t=3379)
+
+Scan rules [57:13](https://youtu.be/amf5lTZ0UTc?t=3433)
+
+Complicated programs can be made out of simple pieces if you think about the specifications of the pieces, instead of the implementations. [58:22](https://youtu.be/amf5lTZ0UTc?t=3502)
+
+How dictionary is implemented [59:47](https://youtu.be/amf5lTZ0UTc?t=3587)

@@ -35,12 +35,23 @@ The patterns for the rules will be passed to the matcher. The skelletons for the
 
 The rules are applied to all subexpressions, and then the rules are applied to the result, until no more simplification is possible [19:54](https://youtu.be/amf5lTZ0UTc?t=1194)
 
-Begin Part 2 [24:11](https://youtu.be/amf5lTZ0UTc?t=1451)
+### Begin Part 2 [24:11](https://youtu.be/amf5lTZ0UTc?t=1451)
 
 The structure of the matcher [24:27](https://youtu.be/amf5lTZ0UTc?t=1467)
 
 The code structure of the matcher at large scale [26:20](https://youtu.be/amf5lTZ0UTc?t=1580)
 
+The matcher must examine 2 trees at the same time [26:53](https://youtu.be/amf5lTZ0UTc?t=1613)
 
+Looking at the general case [30:10](https://youtu.be/amf5lTZ0UTc?t=1810)
 
+Inside the matcher - atomic patterns [32:33](https://youtu.be/amf5lTZ0UTc?t=1953)
+
+Inside the matcher - pattern variables [33:39](https://youtu.be/amf5lTZ0UTc?t=2019)
+
+Looking at the instanitator [36:02](https://youtu.be/amf5lTZ0UTc?t=2162)
+
+What happens inside evaluate [38:50](https://youtu.be/amf5lTZ0UTc?t=2330)
+
+### Begin Part 3 [47:00](https://youtu.be/amf5lTZ0UTc?t=2820)
 

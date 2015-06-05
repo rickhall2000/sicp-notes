@@ -35,4 +35,25 @@ Adding types to the representations [19:40](https://youtu.be/h6Z7vx9iUB8?t=1180)
 
 Generic selectors to use typed data [21:46](https://youtu.be/h6Z7vx9iUB8?t=1306)
 
-Start of part 2 [26:19](https://youtu.be/h6Z7vx9iUB8?t=1579)
+###Start of part 2 [26:19](https://youtu.be/h6Z7vx9iUB8?t=1579)
+
+Criticizisms of dispatching on type [26:51](https://youtu.be/h6Z7vx9iUB8?t=1611)
+
+Manager procedure has to be modified for new types [27:34](https://youtu.be/h6Z7vx9iUB8?t=1654)
+
+The manager procedure represents a table of procedures and representations [29:22](https://youtu.be/h6Z7vx9iUB8?t=1762)
+
+Replace the manager with a table [30:56](https://youtu.be/h6Z7vx9iUB8?t=1856)
+
+The operate procedure [34:28](https://youtu.be/h6Z7vx9iUB8?t=2068)
+
+Defining generic selectors using operate [36:41](https://youtu.be/h6Z7vx9iUB8?t=2201)
+
+Walking through an example using operate [37:24](https://youtu.be/h6Z7vx9iUB8?t=2244)
+
+Several ways the table could be implemented [40:39](https://youtu.be/h6Z7vx9iUB8?t=2439)
+
+###Start of Part 3 [45:11](https://youtu.be/h6Z7vx9iUB8?t=2711)
+
+The power of data directed programming becomes apparent when you imbed it in a complex system [46:08](https://youtu.be/h6Z7vx9iUB8?t=2768)
+

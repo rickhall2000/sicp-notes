@@ -57,3 +57,32 @@ Several ways the table could be implemented [40:39](https://youtu.be/h6Z7vx9iUB8
 
 The power of data directed programming becomes apparent when you imbed it in a complex system [46:08](https://youtu.be/h6Z7vx9iUB8?t=2768)
 
+A generic arithmetic system can be built to operate on different types of numbers [46:20](https://youtu.be/h6Z7vx9iUB8?t=2780)
+
+The rational number procedures from a previous lecture can be added to the system by attaching a type to the rational number representation and add the operations to the table [47:46](https://youtu.be/h6Z7vx9iUB8?t=2866)
+
+Generic operators for arithmetic operations [49:47](https://youtu.be/h6Z7vx9iUB8?t=2987)
+
+Operate needs to be modified to check if both arguments are of the same type, and whether an operation is supported for the type [50:41](https://youtu.be/h6Z7vx9iUB8?t=3041)
+
+Complex numbers need a make-complex procedure to be embedded in the generic system [51:54](https://youtu.be/h6Z7vx9iUB8?t=3114)
+
+Walking through an example operation [54:22](https://youtu.be/h6Z7vx9iUB8?t=3262)
+
+Extending the system to operate on polynomials [57:33](https://youtu.be/h6Z7vx9iUB8?t=3453)
+
+Representing polynomials [58:15](https://youtu.be/h6Z7vx9iUB8?t=3495)
+
+Implementing polynomial arithmetic [59:46](https://youtu.be/h6Z7vx9iUB8?t=3586)
+
+The +terms procedure [1:01:37](https://youtu.be/h6Z7vx9iUB8?t=3697)
+
+Combining coefficients uses the generic add function, meaning that the coefficeint can be any type of number the system can represent [1:04:23](https://youtu.be/h6Z7vx9iUB8?t=3863)
+
+Using the generic add makes polynomials a recursive tower of types [1:05:27](https://youtu.be/h6Z7vx9iUB8?t=3927)
+
+To generalize rational numbers, all that must be done is to replae + with add and * with mul [1:09:16](https://youtu.be/h6Z7vx9iUB8?t=4156)
+
+This could be extended to matricies [1:11:09](https://youtu.be/h6Z7vx9iUB8?t=4269)
+
+Quetions [1:12:38](https://youtu.be/h6Z7vx9iUB8?t=4358)
